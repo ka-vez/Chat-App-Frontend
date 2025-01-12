@@ -5,7 +5,7 @@ import Swal from 'sweetalert2'
 
 function Todo() {
 
-  const baseUrl = "kavez-chat-b.onrender.com/api"
+  const baseUrl = "https://kavez-chat-b.onrender.com/api"
   const api = useAxios()
 
   const token = localStorage.getItem("authTokens")

@@ -7,7 +7,7 @@ import { useParams, Link, useHistory } from 'react-router-dom'
 
 function Message() {
   // define the base URL
-  const baseURL = "kavez-chat-b.onrender.com/api"
+  const baseURL = "https://kavez-chat-b.onrender.com/api"
   // create new states
   const [messages, SetMessage] = useState([])
   let [newSearch, SetNewSearch] = useState({search: ""})

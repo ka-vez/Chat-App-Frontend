@@ -8,7 +8,7 @@ import Swal from 'sweetalert2'
 
 function SearchUsers() {
 
-    const baseURL = "kavez-chat-b.onrender.com/api"
+    const baseURL = "https://kavez-chat-b.onrender.com/api"
     let [newSearch, setNewSearch] = useState({search: ""})
     let [users, setUsers] = useState([])
         

@@ -6,7 +6,7 @@ import moment from 'moment'
 import { useParams, Link, useHistory } from 'react-router-dom'
 
 function MessageDetail() {
-    const baseURL = "kavez-chat-b.onrender.com/api"
+    const baseURL = "https://kavez-chat-b.onrender.com/api"
     const [message, SetMessage] = useState([])
     const [messages, SetMessages] = useState([])
     const [user, SetUser] = useState([])
